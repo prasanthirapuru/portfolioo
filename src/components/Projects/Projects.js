@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png"; 
-import chatify from "../../Assets/Projects/chatify.png";  
+import chatify from "../../Assets/Projects/todolist.jng";  
 import waterqualityprediction from "../../Assets/Projects/waterqualityprediction.png";
 
 function Projects() {
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={todolist}
               isBlog={false}
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
