@@ -542,6 +542,31 @@ button:focus {
 /* About */
 /* --------- */
 
+
+
+
+/* Align image and text perfectly side by side */
+.about-row {
+  display: flex;
+  align-items: center; /* vertical centering */
+}
+
+/* Fix image alignment */
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image scaling so it doesn't drop down */
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
