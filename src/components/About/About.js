@@ -12,7 +12,9 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row className="about-row" style={{ padding: "10px" }}>
+          
+          {/* LEFT SIDE TEXT */}
           <Col
             md={7}
             style={{
@@ -26,18 +28,20 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+
+          {/* RIGHT SIDE IMAGE */}
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            className="about-img d-flex justify-content-center align-items-center"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="about" className="img-fluid about-image" />
           </Col>
+
         </Row>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
         <Techstack />
 
         <h1 className="project-heading">
