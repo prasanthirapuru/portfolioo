@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import AIchatbot from "../../Assets/Projects/AIchatbot.png"; 
-import todolist from "../../Assets/Projects/todolist.jpg";  
+import cloudguardai from "../../Assets/Projects/cloudguardai.png";  
 import waterqualityprediction from "../../Assets/Projects/waterqualityprediction.png";
 
 function Projects() {
@@ -20,12 +20,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todolist}
+              imgPath={cloudguardai}
               isBlog={false}
-              title="To-Do List"
-              description="A clean and responsive To-Do List web app that allows users to add, view, and manage daily tasks through an interactive calendar. Built using HTML, CSS, and JavaScript with localStorage for data persistence."
-              ghLink=" https://github.com/prasanthirapuru/to-do-list"
-              demoLink="https://to-do-list-livid-phi-58.vercel.app/"
+              title="CloudGuard_AI"
+              description="A backend-driven cloud security analysis system built using Django and machine learning techniques.It detects anomalies and classifies potential threats from cloud data efficiently.The system provides APIs for data processing, model execution, and prediction workflows."
+              ghLink="https://github.com/prasanthirapuru/cloud-security-project"
+              demoLink="https://cloud-security-project.onrender.com"
             />
           </Col>
 
