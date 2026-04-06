@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { HiOutlineDocumentText } from "react-icons/hi";
-import Particle from "../Particle"; 
+import React from "react";
+import Particle from "../Particle";
 
 const FILE_ID = "12zRrVAA-sd4VB-DPd8mfPd-19JTWs7bX";
 const drivePreview = `https://drive.google.com/file/d/${FILE_ID}/preview`;
