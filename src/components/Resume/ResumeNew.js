@@ -5,19 +5,10 @@ const FILE_ID = "12zRrVAA-sd4VB-DPd8mfPd-19JTWs7bX";
 const drivePreview = `https://drive.google.com/file/d/${FILE_ID}/preview`;
 
 function ResumeNew() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 10);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
     <div style={{ minHeight: "100vh", background: "transparent" }}>
       <Particle />
 
-      {/* ── FULL-PAGE IFRAME ── */}
       <div
         style={{
           paddingTop: "64px",
